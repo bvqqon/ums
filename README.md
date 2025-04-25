@@ -19,7 +19,7 @@ A Node.js-based User Management System (UMS) that provides authentication, role-
    Create a `.env` file in the root directory and add the following:
    ```
    PORT=3000
-   MONGO_URI=your_mongodb_connection_string
+   MONGO_URI=mongodb+srv://baqqon:1234@cluster0.pmod9.mongodb.net/ums?retryWrites=true&w=majority&appName=Cluster0
    ACCESS_TOKEN_SECRET=your_access_token_secret
    REFRESH_TOKEN_SECRET=your_refresh_token_secret
    ```
